@@ -1,0 +1,12 @@
+#Default profile
+spring:
+  profiles: 
+bdd:
+  trello-endpoint: https://api.trello.com/1/boards/
+---
+#to enable these arguments pass -Dspring.profile.active=E1
+spring:
+  profiles: E1
+bdd:
+  trello-endpoint: https://api.trello.com/1/boards/
+---  
